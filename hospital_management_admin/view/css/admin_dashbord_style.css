@@ -1,0 +1,254 @@
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+
+.c1 {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.img1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.c1 p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Reset default margin and padding */
+body, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the table container */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style table headers */
+th {
+    background-color: #f8f9fa;
+    color: #333;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Style table rows */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row background color */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Center align text in specific columns */
+.text_center {
+    text-align: center;
+}
+
+/* Style edit and delete buttons */
+.edit_btn, .delete_btn {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.edit_btn:hover, .delete_btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+}
+
+#parent_element{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+#parent_element1{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+#parent_element2{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+#parent_element3{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+#parent_element4{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+
+/* Container Styling */
+.s1 {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+.s1 h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Form Styling */
+.s1 form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Input Field Styling */
+.s1 input[type="text"],
+.s1 input[type="submit"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.s1 input[type="text"] {
+    flex: 1; /* Expand input to fill remaining space */
+}
+
+/* Button Styling */
+.s1 input[type="submit"].btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.s1 input[type="submit"].btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .s1 {
+        padding: 10px;
+    }
+    .s1 form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .s1 input[type="text"],
+    .s1 input[type="submit"] {
+        margin-bottom: 10px;
+    }
+}
+
+.add_section
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.add1{
+    flex: 1;
+    padding: 10px 20px;
+    background-color: #007bff;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+.add2{
+    flex: 1;
+    padding: 10px 20px;
+    background-color: #007bff;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}

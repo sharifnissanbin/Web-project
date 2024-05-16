@@ -1,0 +1,66 @@
+/* General form styling */
+form {
+    display: flex; /* Arrange form elements horizontally */
+    flex-direction: column; /* Stack elements vertically */
+    width: fit-content; /* Adjust width based on content */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add some padding for spacing */
+    border: 1px solid #ddd; /* Optional: Basic border */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  /* Labels */
+  label {
+    display: block; /* Display labels on their own lines */
+    margin-bottom: 5px; /* Add spacing below labels */
+    font-weight: bold; /* Make labels stand out */
+  }
+  
+  /* Input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%; /* Make inputs span the full width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px; /* Rounded corners for inputs */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+  }
+  
+  /* Specific input adjustments */
+  input[type="email"] {
+    /* Style email inputs as needed (optional) */
+  }
+  
+  input[type="password"] {
+    /* Style password inputs as needed (optional) */
+  }
+  
+  /* Centering the submit button */
+  .center {
+    text-align: center; /* Center the button horizontally */
+    margin-top: 20px; /* Add spacing above the button */
+  }
+  
+  /* Submit button styling */
+  .common_btn {
+    background-color: #4CAF50; /* Green color (adjust as desired) */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Indicate clickable action */
+  }
+  
+  /* Error message styling */
+  p[style] { /* Target paragraphs with inline styles */
+    color: red;
+    font-style: italic;
+    margin-top: 5px; /* Add spacing above error messages */
+  }
+  
+  /* Media query for responsive adjustments (optional) */
+  @media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens as needed */
+  }
+  

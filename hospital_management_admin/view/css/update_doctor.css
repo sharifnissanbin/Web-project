@@ -1,0 +1,65 @@
+/* General form styling */
+form {
+    display: flex; /* Arrange form elements horizontally */
+    flex-wrap: wrap; /* Allow elements to wrap to next line if needed */
+    width: 100%; /* Make the form fill available width */
+    margin: 20px auto; /* Center the form horizontally with some margin */
+    padding: 20px; /* Add some padding inside the form */
+    border: 1px solid #ddd; /* Create a subtle border */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  /* Labels and Inputs */
+  label,
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    display: block; /* Make labels and inputs block-level for clear structure */
+    margin-bottom: 10px; /* Add space between fields */
+    font-size: 16px; /* Set a comfortable font size */
+  }
+  
+  label {
+    width: 120px; /* Set a consistent width for labels */
+    text-align: right; /* Align labels to the right for better readability */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"] {
+    width: 100%; /* Make inputs take up full available width */
+    padding: 10px; /* Add some padding for user interaction */
+    border: 1px solid #ccc; /* Create a thin border */
+    border-radius: 3px; /* Add slight rounded corners */
+  }
+  
+  input[type="password"] {
+    /* Optionally, hide password characters visually */
+    /* This is not a security measure, but a usability improvement. */
+    /* Use a password manager for secure password storage. */
+    -webkit-text-security: disc; /* Webkit browsers */
+    text-security: disc;
+  }
+  
+  /* Submit button */
+  .common_btn {
+    background-color: #4CAF50; /* Green color for the button */
+    color: white; /* White text color */
+    padding: 12px 20px; /* Add some padding for visual appeal */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Add rounded corners */
+    cursor: pointer; /* Indicate clickable behavior */
+    transition: 0.3s; /* Smooth transition on hover */
+  }
+  
+  .common_btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Centering the submit button (optional) */
+  .center {
+    text-align: center; /* Center the button horizontally */
+    margin-top: 20px; /* Add some space above the button */
+  }
+  
